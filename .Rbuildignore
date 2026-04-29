@@ -1,0 +1,17 @@
+^TextDescribR\.Rproj$
+^\.Rproj\.user$
+^\.positai$
+^\.claude$
+^LICENSE\.md$
+^renv$
+^renv\.lock$
+^.*\.Rproj$
+^\.Rproj\.user$
+^data-raw$
+^\.github$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+<<<<<<< HEAD
+README.Rmd
+^README\.Rmd$
