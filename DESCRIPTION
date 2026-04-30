@@ -1,12 +1,32 @@
 Package: TextDescribR
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Produces Text Analytics for One or Many Language Samples
+Version: 0.1.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+c(
+     person("Jamie", "Reilly", 
+           role = c("aut", "cre"), 
+           email = "jamie_reilly@temple.edu",
+           comment = c(ORCID = "0000-0002-0891-438X")),
+    person("Shawn", "Wang",
+           role = c("aut", "cre"), 
+    person("Avery", "Pattullo", 
+           role = c("aut", "cre")
+Maintainer: Jamie Reilly <jamie_reilly@temple.edu>
+Description: Generates a wide range of text analytics describing one or more language samples. Variables include common discourse descriptors such as sentence length, word frequency, type-token ratio, token count, word length, etc. The package computes descriptive statistics for each metric and outputs values as a publication ready table if specified by the user. 
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
-URL: https://github.com/reilly-lab/TextDescribR
-BugReports: https://github.com/reilly-lab/TextDescribR/issues
+URL: https://github.com/Reilly-ConceptsCognitionLab/TextDescribR
+BugReports: https://github.com/Reilly-ConceptsCognitionLab/TextDescribR/issues
+Depends: 
+    R (>= 3.5)
+Imports:
+Suggests: 
+    devtools,
+    knitr,
+    rmarkdown
+LazyData: true
+VignetteBuilder: knitr
+
+    
